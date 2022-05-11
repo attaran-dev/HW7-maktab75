@@ -1,0 +1,130 @@
+body{
+    /* width: 100vw; */
+    margin: 0;
+}
+header{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+header div{
+    align-self: center;
+    width: 80%;
+}
+#title-bar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#navbar{
+    display: flex;
+    background-color: rgb(11, 11, 57);
+    color: white;
+    margin: 0;
+
+}
+#menu{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    color: orange;
+    text-decoration: none;
+}
+#container{
+    margin:0;
+    width: 100%;
+}
+#columns{
+    display: flex;
+    width: 100%;
+}
+#column-1{
+color: white;
+background-color: orange;
+width: 25%;
+}
+#column-2{
+    color: white;
+    background-color: rgb(11, 11, 57);
+    width: 25%;
+}
+#column-3{
+    color: white;
+    background-color: orange;
+    width: 25%;
+}
+#column-4{
+    color: white;
+    background-color: rgb(11, 11, 57);
+    width: 25%;
+}
+#slide{
+    background-image: url('./6.jpg');
+    height:500px;
+    margin-top: -27px;
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#slide div {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+margin-left:50px; 
+    width: 50%;
+}
+#contact {
+    display: flex;
+    gap: 10px;
+
+}
+#apply-now{
+    color:white;
+    background-color: orange;
+    text-decoration: none;
+    border-radius:30px;
+    padding: 10px 20px 10px 20px;
+}
+
+#apply{
+    align-self: center;
+}
+#logo{
+    margin-top: 20px;
+    width: 100px;
+    }
+
+#contact-us{
+    padding: 10px 20px 10px 20px;
+    background-color: orange;
+    border-radius: 30px;
+    width: 80px;
+}
+#search{
+width: 200px;
+position:relative;
+
+}
+input{
+    padding: 5px;
+    border-radius: 30px;
+}
+#search i {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color:rgb(11, 11, 57);
+}
+.column-text{
+    margin: 30px;
+}
